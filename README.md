@@ -21,7 +21,7 @@ To set up the project locally, follow these steps:
 
 2. **Set Up the Conda Environment:**
    - conda env create -f environment.yml
-   - conda activate my_environment
+   - conda activate ge_research
 
 ## Environment Configuration
 
