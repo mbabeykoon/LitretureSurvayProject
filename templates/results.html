@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Results</title>
+</head>
+<body>
+    <h1>Search Results</h1>
+    {% if papers %}
+        {% if papers|length > 0 %}
+            {% for paper in papers %}
+                <div>
+                    <h3><a href="{{ paper['link'] }}">{{ paper['title'] }}</a></h3>
+                </div>
+            {% endfor %}
+        {% else %}
+            <p>No papers found.</p>
+        {% endif %}
+    {% else %}
+        <p>Error: No results to display.</p>
+    {% endif %}
+</body>
+</html>
+

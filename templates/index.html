@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Research Paper Search</title>
+</head>
+<body>
+    <h1>Search for Research Papers</h1>
+    <form method="post">
+        <label for="topic">Enter Topic:</label><br>
+        <input type="text" id="topic" name="topic"><br><br>
+
+        <label for="keywords">Enter Keywords:</label><br>
+        <input type="text" id="keywords" name="keywords"><br><br>
+
+        <label for="source">Select Source:</label><br>
+        <select name="source" id="source">
+            <option value="google_scholar">Google Scholar</option>
+            <option value="pubmed">PubMed</option>
+            <option value="ieee_xplore">IEEE Xplore</option>
+            <option value="arxiv">arXiv</option>
+            <option value="university_repository">University Repository</option>
+        </select><br><br>
+
+        <input type="submit" value="Search">
+    </form>
+</body>
+</html>
