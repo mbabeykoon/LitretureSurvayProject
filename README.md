@@ -15,13 +15,15 @@ This Flask application provides a simple interface for searching academic papers
 To set up the project locally, follow these steps:
 
 1. **Clone the Repository**
-   - git clone https://github.com/mbabeykoon/LitretureSurvayProject.git
-   - cd LitretureSurvayProject
+   ```bash
+   git clone https://github.com/mbabeykoon/LitretureSurvayProject.git
+   cd LitretureSurvayProject
    
 
 2. **Set Up the Conda Environment:**
-   - conda env create -f environment.yml
-   - conda activate ge_research
+   ```bash
+   conda env create -f environment.yml
+   conda activate ge_research
 
 ## Environment Configuration
 
